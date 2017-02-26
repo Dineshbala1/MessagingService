@@ -7,14 +7,20 @@ Messaging Service is a lightweight library that makes it easy to implement objec
 
 Download
 ----------
+Binaries of this project are available on Nuget (https://www.nuget.org/packages/MessagingService-MVVM/)
 
+To install MessagingService nuget, run the following command in the Package Manager Console:
+
+```
+PM> Install-Package MessagingService-MVVM
+```
 
 Credits
 -------
 
-MessagingService is maintained by Dineshbala. Please report all issues on [Github](https://github.com/Dineshbala1/MessagingService/issues).
+MessagingService is maintained by [Dineshbala1](https://github.com/Dineshbala1/). Please report all issues on [Github](https://github.com/Dineshbala1/MessagingService/issues).
 
-The library was created while trying to establish data transfer between Viewmodels in a UWP project.
+The library was created while trying to establish communication between viewmodels to transfer data in a UWP project.
 
 Gitignore courtesy [gitignore](https://github.com/github/gitignore).
 
