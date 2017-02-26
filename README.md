@@ -21,4 +21,4 @@ Gitignore courtesy [gitignore](https://github.com/github/gitignore).
 License
 -------
 
-MessagingService is available under the [MIT License](https://github.com/Dineshbala1/MessagingService/blob/master/license).
+MessagingService is available under the [MIT License](https://github.com/Dineshbala1/MessagingService/blob/master/License).
