@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd"  >
+  <metadata>
+    <id>MessagingService-MVVM</id>
+    <version>1.0.0.0</version>
+    <title>Messaging Service - MVVM</title>
+    <authors>Dinesh kumar</authors>
+    <owners>Dinesh kumar</owners>
+    <licenseUrl>https://github.com/Dineshbala1/MessagingService/blob/master/License</licenseUrl>
+    <projectUrl>https://github.com/Dineshbala1/MessagingService</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Messaging Service for Object communication in MVVM</description>
+    <summary>Messaging Service for Object communication in MVVM</summary>
+    <copyright>Copyright 2017</copyright>
+    <tags>MVVM, Messaging ViewModel, ViewModel - ViewModel messages</tags>
+  </metadata>
+  <files>
+    <file src="..\MessagingService\bin\Release\MessagingService.dll" target="lib\MonoAndroid"/>
+    <file src="..\MessagingService\bin\Release\MessagingService.dll" target="lib\portable-net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10"/>
+    <file src="..\MessagingService\bin\Release\MessagingService.dll" target="lib\uap10.0"/>
+    <file src="..\MessagingService\bin\Release\MessagingService.dll" target="lib\win81"/>
+    <file src="..\MessagingService\bin\Release\MessagingService.dll" target="lib\WP80"/>
+    <file src="..\MessagingService\bin\Release\MessagingService.dll" target="lib\wpa81"/>
+    <file src="..\MessagingService\bin\Release\MessagingService.dll" target="lib\Xamarin.iOS10"/>
+    <file src="..\MessagingService\bin\Release\MessagingService.dll" target="lib\net40"/>
+  </files>
+</package>
