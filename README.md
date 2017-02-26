@@ -12,7 +12,7 @@ Download
 Credits
 -------
 
-MessagingService is maintained by Dineshbala. Please report all issues on [Github](https://github.com/walkingtree/MessagingService/issues).
+MessagingService is maintained by Dineshbala. Please report all issues on [Github](https://github.com/Dineshbala1/MessagingService/issues).
 
 The library was created while trying to establish data transfer between Viewmodels in a UWP project.
 
