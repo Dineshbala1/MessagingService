@@ -3,7 +3,7 @@
 Overview
 --------
 
-Messaging Service is a lightweight library that makes it easy to implement object communication to share data while using MVVM patter and reduces coupling in Xamarin & .NET applications.
+Messaging Service is a lightweight library that makes it easy to implement object communication to share data while using MVVM pattern and reduces coupling in Xamarin & .NET applications.
 
 Download
 ----------
