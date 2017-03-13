@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="MessagingServices_Mvvm_Sample.View.StudentControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MessagingServices_Mvvm_Sample.View"
+             xmlns:viewModel="clr-namespace:MessagingServices_Mvvm_BL.ViewModel;assembly=MessagingServices-Mvvm-BL"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="200">
+    <UserControl.DataContext>
+        <viewModel:StudentDataViewModel/>
+    </UserControl.DataContext>
+    <Grid>
+        <StackPanel>
+           <TextBox x:Name="studentSubject"/>
+            <Button Content="Add new student" Command="{Binding AddStudentDataCommand}" CommandParameter="{Binding ElementName=studentSubject, Path=Text}" />
+        </StackPanel>
+    </Grid>
+</UserControl>
